@@ -18,7 +18,7 @@ public class ModPoly extends JPanel {
     public ModPoly(int degree) {
         this.degree = degree;
         coefficients = new double[degree + 1];
-        String fileName = "C:\\Users\\HP\\eclipse-workspace\\Calcul Matriciel\\src\\alglin\\Points.txt";
+        String fileName = "Points.txt";
         double tab[][] = lireFichier(fileName);
         int n = tab.length;
         fonctions_base = new double[n][degree + 1];
