@@ -251,7 +251,7 @@ public class Matrice {
         Matrice transposedA = a.transpose();
         System.out.println("Transposée de la matrice A :\n" + transposedA);
         System.out.println("construction d'une matrice par affectation d'un tableau :\n"+a);
-        Matrice b = new Matrice("C:\\Users\\HP\\eclipse-workspace\\Calcul Matriciel\\src\\alglin\\matrice.txt");
+        Matrice b = new Matrice("matrice.txt");
         System.out.println("Construction d'une matrice par lecture d'un fichier :\n"+b);
         Matrice c = new Matrice(2,2);
         c.recopie(b);

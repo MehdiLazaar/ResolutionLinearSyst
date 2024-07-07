@@ -103,7 +103,7 @@ public class Vecteur extends Matrice {
         Vecteur v1 = new Vecteur(vectArray);
         System.out.println("Vecteur créé à partir d'un tableau :\n" + v1);
 
-        Vecteur v2 = new Vecteur("C:\\Users\\HP\\eclipse-workspace\\Programmation_scientifique\\src\\alglin\\fichier.txt");
+        Vecteur v2 = new Vecteur("fichier.txt");
         System.out.println("Vecteur créé à partir d'un fichier :\n" + v2);
 
         Vecteur v3 = new Vecteur(3);
