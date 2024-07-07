@@ -31,7 +31,7 @@ public class ModPoly extends JPanel {
     }
 
     public void identifier() throws Exception {
-    	String fileName = "C:\\Users\\HP\\eclipse-workspace\\Calcul Matriciel\\src\\alglin\\Points.txt";
+    	String fileName = "Points.txt";
         double tab[][] = lireFichier(fileName);
         int n = tab.length;
 
